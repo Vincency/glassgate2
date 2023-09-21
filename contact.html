@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="contact.css">
+  <script src="contact.js" defer></script>
+  <title>Contact-us</title>
+</head>
+
+<body>
+  <header>
+    <nav class="top-nav">
+              
+      <img class="logo" src="images/Glass Gate Logo 3.png" alt="">        
+      <input type="text" placeholder="Search..." class="search-box" name="Search">
+      
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-button-container">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li class="link"><a href="index.html">HOME</a></li>
+        <li class="link"><a href="about.html">ABOUT</a></li>
+        <li class="link" class="nav-services">
+          <a href="#">SERVICES</a>
+
+          <ul class="dropdown">
+            <li><a href="#">Data Center</a></li>
+            <li><a href="#">Network Solution</a></li>
+            <li><a href="#">Collaboration</a></li>
+            <li><a href="#">Consulting Services</a></li>
+            <li><a href="#">Professional Services</a></li>
+            <li><a href="#">Software Solutions</a></li>
+            <li><a href="#">Storage and Backups</a></li>
+            <li><a href="#">Solar Energy</a></li>
+            <li><a href="#">Surveillance Systems</a></li>
+            <li><a href="#">Endpoints and Alternatives</a></li>
+          </ul>
+
+        </li>
+        <li class="link"><a href="#">CONTACT</a></li>
+        <li class="link"><a href="#">GALLERY</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+          <!-- section-2 -->
+
+  <div class="contain">
+
+    <div class="wrapper">
+  
+      <div class="form">
+          <div>
+            <h4>GET IN TOUCH</h4>
+            <h2 class="form-headline">Send us a message</h2>
+          </div>
+
+        <form id="submit-form" action="">
+          <p>
+            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+            <small class="name-error"></small>
+          </p>
+
+          <p>
+            <input id="email" class="form-input" type="email" placeholder="Your Email*">
+            <small class="name-error"></small>
+          </p>
+
+          <p class="full-width">
+            <input id="company-name" class="form-input" type="text" placeholder="Company Name*" required>
+            <small></small>
+          </p>
+
+          <p class="full-width">
+            <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+            <small></small>
+          </p>
+
+          <p class="full-width">
+            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+          </p>
+
+          <p class="full-width">
+            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+            <button class="reset-btn" onclick="reset()">Reset</button>
+          </p>
+
+        </form>
+      </div>
+  
+      <div class="contacts contact-wrapper">
+
+        <div class="follow-us">
+          <p>Follow Us</p>
+          <a href="https://m.facebook.com/profile.php/?id=100065033471547"><img src="images/facebook icon.png" alt=""></a>
+          <a href="https://twitter.com/glassgateltd?lang=ar-x-fm"><img src="images/twitter icon.png" alt=""></a>
+          <a href="https://www.instagram.com/glassgateltd/"><img src="images/instagram icon.png" alt=""></a>
+          <a href="https://www.linkedin.com/company/glassgateltd/mycompany/"><img src="images/linkedin icon.png" alt=""></a>
+        </div>
+  
+        <ul>
+          <li>We empower businesses through cutting-edge ICT solutions, transforming
+             challenges into opportunities.
+             Let's elevate your technology landscape.
+          </li>
+
+          <span class="hightlight-contact-info">
+            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@glassgateltd.com</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+234 803 706 1996</span></li>
+          </span>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer">
+
+    <div class="footer-items item-1">
+        <h3>Contact Us</h3>
+        <p>Phone: +234 803 706 1996</p>
+        <p>Phone: +234 813 855 6224</p>
+        <p>Email: business@glassgateltd.com</p>
+        <p>Email: info@glassgateltd.com</p>
+  
+        <div class="follow-us">
+            <p>Follow Us</p>
+            <a href="https://m.facebook.com/profile.php/?id=100065033471547"><img src="images/facebook icon.png" alt=""></a>
+            <a href="#twitter"><img src="images/twitter icon.png" alt=""></a>
+            <a href="#instagram"><img src="images/instagram icon.png" alt=""></a>
+            <a href="#linkedin"><img src="images/linkedin icon.png" alt=""></a>
+        </div>
+  
+        <div class="subscribe">
+            <form action="">
+                <h3 class="newsletter">Subscribe to Newsletter</h3>
+                <input type="email" name="Newsletter" placeholder="Enter Email" class="email-input">
+                <input type="submit" value="Send" class="subscribe-btn">
+            </form>
+        </div>
+        
+    </div>
+  
+    <div class="footer-items item-2">
+        <h3>Directions</h3>
+        <p>GlassGate Nig Ltd. <br> 2, Asa-Afariogun Street, Besides Mama's kitchen, <br>
+             Ajao Estate, Off International Airport Road, <br>
+             Lagos, Nigeria.</p>
+        <a href="#">Google Map</a>
+    </div>
+  
+    <div class="footer-items item-3">
+        <h3>Solutions</h3>
+        <a href="#">Cloud Infrastructure</a>
+        <a href="#">Cyber Security</a>
+        <a href="#">Secure Network</a>
+        <a href="#">Awareness Training</a>
+        <a href="#">IT Strategy, Operations & IT Support</a>
+        <a href="#">Digital Transformation</a>
+  
+    </div>
+  
+    <div class="footer-items item-3">
+      <h3>Useful links</h3>
+      <a href="index.html">Home</a>
+      <a href="about.html">Know More About Us</a>
+      <a href="#">Our Smart Services</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="#">Gallery</a>
+      <a href="#">Google Map</a>
+    </div>
+  
+  </div>
+
+    
+</body>
