@@ -199,7 +199,7 @@ margin: 5px 10px;
   background-image: linear-gradient(45deg, rgba(12,159,104, 0.7) 50%,
                                   rgba(52, 52, 223, 0.7),
                                   rgba(0, 238, 255, 0.7)),
-                                  url(images/ict-background.webp);
+                                  url(ict-background.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(100vh - 100px);
@@ -274,7 +274,7 @@ margin: 5px 10px;
 /* SECTION 2 */
 
 .sect-2 {
-    background-image: url(images/ict5.jpeg);
+    background-image: url(ict5.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
