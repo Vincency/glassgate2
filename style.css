@@ -874,6 +874,8 @@ margin: 5px 10px;
 
   .carousel .card{
     margin: 1px;
+    min-height: 290px;
+    max-width: 200px;
   }
 
   .card .name{
