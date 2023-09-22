@@ -858,6 +858,44 @@ margin: 5px 10px;
   .slide-btn{
       display: none;
   }
+
+   .carousel .card{
+    min-height: 300px;
+    }
+    
+  .card-image{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+  }
+
+  .carousel .card{
+    margin: 1px;
+  }
+
+  .card .name{
+   margin-top: 5px;
+  font-size: 15px;
+  z-index: 1;
+}
+
+.description{
+  font-size: 12px;
+}
+  
+  .card-content h4{
+    margin-top: 10px;
+    font-size: 13px ;
+  }
+
+  .button{
+    font-size: 13px;
+    padding: 6px 10px;
+    margin: 10px;
+  }
   
 }
 
