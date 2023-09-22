@@ -465,8 +465,6 @@ margin: 5px 10px;
   display: none;
 }
 
-
-
 .navigation-manual{
   position: absolute;
   width: 800px;
@@ -888,15 +886,20 @@ margin: 5px 10px;
   font-size: 12px;
 }
   
-  .card-content h4{
-    margin-top: 10px;
-    font-size: 13px ;
-  }
-
   .button{
     font-size: 13px;
     padding: 6px 10px;
     margin: 10px;
+  }
+   .card-content h4{
+    margin-top: 10px;
+    font-size: 13px ;
+    text-align: center;
+  }
+
+  .testimonial .carousel{
+  grid-auto-columns: calc((100% / 1.8) - 12px);
+  gap: 8px;
   }
   
 }
